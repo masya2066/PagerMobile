@@ -15,6 +15,25 @@ const authStyle = StyleSheet.create({
         alignItems: 'flex-start',
         justifyContent: 'flex-start'
     },
+    authTitle: {
+        textAlign: 'center',
+        flex: 1,
+        maxWidth: 267,
+        maxHeight: 34,
+        fontSize: 19,
+        color: 'white',
+        fontWeight: '400'
+    },
+    authNumberDesc: {
+        textAlign: 'center',
+        flex: 1,
+        maxWidth: 267,
+        maxHeight: 34,
+        fontSize: 14,
+        color: 'white',
+        fontWeight: '400',
+        marginBottom: 53
+    },
     authBtnContainer: {
         marginTop: 110,
         minWidth: 250,
@@ -38,28 +57,49 @@ const authStyle = StyleSheet.create({
 
     countryContainer: {
         zIndex: -2,
-        flexDirection: 'row',
         marginBottom: 4,
         width: 198,
         height: 40,
         marginTop: 9,
-        alignItems: 'center',
-        justifyContent: 'center',
+        alignItems: 'flex-start',
         borderStyle: 'solid',
         borderColor: '#787D9F',
         borderWidth: 1,
         borderRadius: 10,
     },
 
+    countryButton: {
+        flex: 1,
+        backgroundColor: 'transparent',
+        justifyContent: 'flex-start'
+    },
+
     countryTitle: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: 'flex-start',
+        alignItems: 'flex-start',
         fontSize: 17,
         fontWeight: '400',
-        textAlign: "center",
-        textAlignVertical: 'center',
+        textAlign: "justify",
+        marginLeft: 10,
         letterSpacing: 1
+    },
+
+    countryText: {
+        zIndex: 1,
+        position: 'absolute',
+        left: 19,
+        fontSize: 14,
+        color: '#B8BCC3',
+        backgroundColor: "#15223C",
+        paddingHorizontal: 3
+    },
+
+    svgDownArrowContainer: {
+        zIndex: -100,
+        position: 'absolute',
+        left: 170,
+        top: 27
     },
 
     inputContainer: {
@@ -76,6 +116,26 @@ const authStyle = StyleSheet.create({
         borderColor: '#787D9F',
         borderWidth: 1,
         borderRadius: 10,
+    },
+    phoneNumberTitle: {
+        position: 'absolute',
+        left: 19,
+        fontSize: 14,
+        color: '#B8BCC3',
+        backgroundColor: "#15223C",
+        paddingHorizontal: 3
+    },
+    numberCodeContainer: {
+        borderRightColor: 'white',
+        borderRightWidth: 1,
+        paddingRight: 10,
+        marginRight: 10
+    },
+    codeText: {
+        fontSize: 17,
+        color: '#FFF',
+        borderRightColor: 'white',
+        borderRightWidth: 1
     },
     mask: {
         flex: 1,

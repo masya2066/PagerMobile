@@ -6,5 +6,6 @@ export const ru = {
     auth_title: "Авторизация",
     auth_number_description: "Проверьте код страны и введите свой номер телефона",
     phone_number: "Номер телефона",
-    country: "Страна"
+    country: "Страна",
+    search: 'Поиск'
 }

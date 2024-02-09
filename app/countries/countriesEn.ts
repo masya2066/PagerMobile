@@ -1,5 +1,6 @@
 export const countriesEn: Record<string, string> = {
     russia: "🇷🇺 Russia",
     turkey: "🇹🇷 Turkey",
-    georgia: "🇬🇪 Georgia"
+    georgia: "🇬🇪 Georgia",
+    england: "🏴󠁧󠁢󠁥󠁮󠁧󠁿England"
 }

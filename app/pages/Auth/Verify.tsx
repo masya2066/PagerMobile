@@ -35,7 +35,7 @@ export default function Verify({navigate}: any) {
                     </View>
                     <View style={{flex: 1, minWidth: '100%', justifyContent: 'center', alignItems: 'center'}}>
                         <Image
-                            source={require('../../../assets/logo.png')}
+                            source={require('../../../assets/logo1.png')}
                             style={{width: 120, height: 120}}
                         ></Image></View>
                 </View>

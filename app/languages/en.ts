@@ -6,5 +6,6 @@ export const en = {
     auth_title: "Authorization",
     auth_number_description: "Check country code and write the phone number",
     phone_number: "Phone number",
-    country: "Country"
+    country: "Country",
+    search: 'Search'
 }
